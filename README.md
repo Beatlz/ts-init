@@ -7,6 +7,8 @@
 
 `npm install`
 
+You must add `require("module-alias/register")` at the top of every file using absolute imports
+
 ## NPM commands
 
 `npm start` will execute `ts-node src/index.ts`
