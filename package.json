@@ -1,0 +1,18 @@
+{
+  "_moduleAliases": {
+    "...": "./",
+    "@": "/dist",
+    "@assets": "dist/assets/",
+    "@constants": "dist/constants/",
+    "@modules": "dist/modules/",
+    "@types": "dist/types/",
+    "@utility": "dist/utility/"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.14",
+    "eslint": "^8.10.0"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  }
+}
