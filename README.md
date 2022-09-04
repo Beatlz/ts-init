@@ -10,3 +10,9 @@
 ## NPM commands
 
 `npm start` will execute `ts-node src/index.ts`
+
+## Types folder
+
+To import from types folder, you must add a `/` after the `@`, because the `@types` path is reserved in NodeJS. 
+
+Example: `import MyAwesomeType from "@/types/MyAwesomeType"`
