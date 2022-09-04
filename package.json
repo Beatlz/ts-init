@@ -14,5 +14,8 @@
   },
   "dependencies": {
     "module-alias": "^2.2.2"
+  },
+  "scripts": {
+    "start": "ts-node src/index.ts"
   }
 }
