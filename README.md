@@ -16,3 +16,8 @@
 To import from types folder, you must add a `/` after the `@`, because the `@types` path is reserved in NodeJS. 
 
 Example: `import MyAwesomeType from "@/types/MyAwesomeType"`
+
+## Adding new folders
+
+1- Add a path in the `paths` property inside the `tsconfig.json` with `"@{folderPath}/*": ["./{folderPath}/*"]`
+2- Add a path in the `_moduleAliases` property inside the `package.json` with `"@folderPath": "dist/folderPath/",`

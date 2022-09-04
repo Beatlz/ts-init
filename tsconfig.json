@@ -41,7 +41,7 @@
     "paths": {
       ".../*": ["../*"],
       "@/*": ["./*"],
-      "@assets/*": ["./constants/*"],
+      "@assets/*": ["./assets/*"],
       "@constants/*": ["./constants/*"],
       "@modules/*": ["./modules/*"],
       "@types/*": ["./types/*"],
