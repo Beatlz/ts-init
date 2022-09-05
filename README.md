@@ -7,6 +7,8 @@
 
 `npm install`
 
+`tsc`
+
 You must add `require("module-alias/register")` at the top of every file using absolute imports
 
 ## NPM commands
