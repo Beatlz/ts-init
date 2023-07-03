@@ -2,6 +2,7 @@
 Refer to [this project](https://github.com/Beatlz/ts-boilerplate) for the new version.
 
 ~~## How to use~~
+
 `mkdir {project-name}`
 
 `cd {project-name}`
